@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoNav</title>		
+    <meta name="description" content="საქართველოს კურორტები">
+    <meta name="keywords" content="საქართველო, კურორტი, კურორტები საქართველოში, Geo, Nav, GeoNav">
+    <meta name="author" content="Tamazi Tigishvili">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="საქართველოს კურორტები" />
+    <meta property="og:description" content="Buy tickets for cheapist price" />
+  	<link rel="icon" href="images/logo1.png" type="image/icon type" />
+    <meta property="og:image" content="images/logo1.png" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login1.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+   
+  </head>
+  <body>
+    <header class="clearHeader">
+      <div class="wrapper">
+         <nav class="navigation">
+            <ul id="menu" class="nav menu-ul">
+               <li>
+                  <a class="nav-a" href="index1.html"><span>< </span>უკან</a>
+               </li> 
+            </ul>
+         </nav>
+   </header>
+    <section class="login">
+      <div class="video">
+        <video autoplay loop muted playes-inline class="back-video">
+            <source src="Images/production ID_4517394.mp4">
+        </video>
+      </div>
+    <div class="e-wrapper">
+    <form action="" method="POST" id="registration">
+  
+      
+      <div>
+        <label class="label" for="username">სახელი</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="სახელი.."
+        />
+        <div class="error-text" id="error_username"></div>
+     
+      </div>
+      <div>
+        <label class="label" for="username">გვარი</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="გვარი.."
+        />
+        <div class="error-text" id="error_username"></div>
+     </div>
+
+      <div class="allpass">
+      <div class="password1">
+      <div>
+        <label class="label" for="passw">პაროლი</label>
+        <input
+          type="password"
+          id="passw"
+          name="password"
+          placeholder="პაროლი.."
+        />
+        <div class="error-text" id="error_password"></div>
+      </div>
+    </div>
+      <div class="reppass">
+        <div class="password-field">
+        <label class="label" for="passw2">გაიმეორე პაროლი</label>
+        <input
+          type="password"
+          id="showpassword"
+          name="mypassword"
+          placeholder="გაიმეორე პაროლი.."
+          
+        />
+        <i class="fa-solid fa-eye iconfa" id="toggleIcon"></i>
+      </div>
+        <div class="error-text" id="error_password2"></div>
+      </div>
+    </div>
+    <div class="email">
+      <form action="" id="formEmail" >
+        <div class="input-email">
+          <label class="label" for="email">ემეილის მისამართი</label>
+          <input  type="email" id="email" name="myemail" placeholder="მაგ: myname@example.com"/>
+          <span id="text"></span>
+        </div>
+      </form>
+    </div>
+    <div class="gender">
+      <div>
+        <input type="radio" name="gender" />
+        <label for="">მამრობითი</label>
+        <input type="radio" name="gender" />
+        <label for="">მდედრობითი</label>
+        <div class="error-text" id="error_gender"></div>
+      </div>
+    </div>
+    <div class="agreement">
+      <div>
+        <input type="checkbox" name="agree" id="agree" />
+        <label for="">I agree terms and conditions</label>
+        <div class="error-text" id="error_agree"></div>
+      </div>
+    </div>
+    <div class="butt">
+      <button class="button" type="submit">გაგზავნა</button>
+    </div>
+    </form>
+  </div>
+</section>
+    <script src="js/validtion.js"></script>
+  </body>
+</html>
